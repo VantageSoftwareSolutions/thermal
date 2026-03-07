@@ -1,12 +1,10 @@
 <img src="readme/thermal.png" width="124" height="124" style="float:right; margin-left: 30px;">
 
-> [!WARNING]
-> This project is not yet ready for production use but the api is mostly stable as of Oct 2024. Contributions and
-> feedback are welcome.
-
 # Receipt Renderer in Rust (ESC/POS)
 
-Thermal is a toolkit for parsing and rendering ESC/POS commands, capable of producing JPEG and HTML outputs.
+Thermal is a printer emulator, it converts the esc/pos commands that thermal printers use into images or html. 
+
+If you are looking for a receipt renderer language, see my other project instead: [Rip: Receipt Image Platform](https://github.com/zachzurn/rip).
 
 Supports:
 
