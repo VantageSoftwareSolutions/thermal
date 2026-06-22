@@ -22,7 +22,7 @@ impl CommandHandler for Handler {
                 self.height,
                 self.stretch,
                 &color,
-                ImageFlow::Inline,
+                ImageFlow::Block,
                 &command.data,
             ))
         } else {
@@ -31,7 +31,7 @@ impl CommandHandler for Handler {
                 self.height,
                 self.stretch,
                 &color,
-                ImageFlow::Inline,
+                ImageFlow::Block,
                 &command.data,
                 false,
             ))
