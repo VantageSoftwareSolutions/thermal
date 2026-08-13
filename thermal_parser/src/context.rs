@@ -432,7 +432,7 @@ impl Context {
         let dots_per_inch = 203;
         let paper_left_margin = (dots_per_inch as f32 * 0.1f32) as u32;
         let paper_right_margin = (dots_per_inch as f32 * 0.1f32) as u32;
-        let paper_width = 600; // 50 characters (dots_per_inch as f32 * 3.2f32) as u32;
+        let paper_width = 640; // 50 characters (dots_per_inch as f32 * 3.2f32) as u32;
         let render_width = paper_width - (paper_left_margin + paper_right_margin);
         let render_colors = RenderColors {
             paper_color: RGBA {
